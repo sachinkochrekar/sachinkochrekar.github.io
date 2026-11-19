@@ -78,6 +78,32 @@
       text-align: center;
     }
   </style>
+  
+.academic-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.academic-links a {
+  color: #087f8c;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.academic-links a:hover {
+  text-decoration: underline;
+}
+
+.academic-links a:not(:last-child)::after {
+  content: "|";
+  color: #9ca3af;
+  margin-left: 14px;
+}
+
 </head>
 <body>
   <header>
